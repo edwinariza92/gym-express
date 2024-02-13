@@ -1,0 +1,90 @@
+body{
+    background-image: url(../img/bakgroundmejor.jpg);
+    background-size: cover;
+    font-family: sans-serif;     
+}
+.nombre{
+    display: flex;    
+}
+header{
+    font-family: 'Prata', serif;
+    font-family: 'Protest Revolution', sans-serif;
+    text-align: center;
+    background-color:  rgba(0,0,0,0.7);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+}
+.nombre_gym{
+    color:white;
+}
+a{
+    color: white;
+    margin: 10px;
+}
+main{
+    display: flex;
+    margin: 100px 0 100px 400px;
+    align-items: center;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    width: 550px;
+    align-items: center;
+    color: #fff;
+    background-color:  rgba(0,0,0,0.7);
+}
+p{
+    display: flex;
+    font-size: 20px;
+}
+button{
+    background-color: rgb(240, 186, 7);
+    color: #080808;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;   
+    width: 135px;
+    height: 53px;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color:  rgba(0,0,0,0.7);
+    color: white;
+}
+.redes{
+    display: flex;
+    justify-content: space-between;
+}
+.logos-redes{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.boton-suscribir{
+    background-color: rgb(240, 186, 7);
+    color: #080808;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: bold;   
+    width: 83px;
+    height: 40px;
+}
+input{
+    width: 160px;
+    height: 30px;
+    border-radius: 10px;
+}

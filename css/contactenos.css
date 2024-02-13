@@ -1,0 +1,139 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-size: cover;
+    background-image: url(../img/backgroundcontacto.jpg);
+}
+.nombre{
+    display: flex;
+    
+}
+header{
+    font-family: 'Prata', serif;
+    font-family: 'Protest Revolution', sans-serif;
+    text-align: center;
+    background-color:  rgba(0,0,0,0.7);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+}
+
+
+a{
+    color: white;
+    margin: 10px;
+}
+main{
+    display: flex;
+    margin: 50px ;
+    align-items: center;
+    justify-content: space-between;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    color: #fff;
+    background-color:  rgba(0,0,0,0.7);
+}
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+.carrusel{
+    display: flex;
+    width: 600px;
+    height: 430px;
+    margin: 100px;
+    margin-left: 200px;
+  }
+  .carrusel img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+  }
+  section img:hover{
+    cursor: pointer;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+  footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color:  rgba(0,0,0,0.7);
+    color: white;
+}
+.redes{
+    display: flex;
+    justify-content: space-between;
+}
+.logos-redes{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.boton-suscribir{
+    background-color: rgb(240, 186, 7);
+    color: #080808;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: bold;   
+    width: 83px;
+    height: 40px;
+}
+.input-footer{
+    width: 160px;
+    height: 30px;
+    border-radius: 10px;
+}
