@@ -88,3 +88,41 @@ input{
     height: 30px;
     border-radius: 10px;
 }
+
+@media only screen and (max-width: 600px){
+    body{
+        background-position: bottom;
+    }
+    header{
+        width: 332px;
+    }
+    main{
+        margin: 49px;
+    }
+    .icono{
+        display: none;
+    }
+    h1{
+        font-size: 12px;
+    }
+    h3{
+        font-size: 12px;
+    }
+    nav{
+        display: flow-root;
+        font-size: 14px;
+    }
+    .titulo-pregunta{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    input{
+        width: 100px;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    main{
+        margin: 30px;
+    }
+}
+

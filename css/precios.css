@@ -93,3 +93,37 @@ input{
     height: 30px;
     border-radius: 10px;
 }
+
+
+@media only screen and (max-width: 600px){
+  
+    header{
+        width: 332px;
+    }
+    main{
+        margin: 2px;
+    }
+    .icono{
+        display: none;
+    }
+    h1 , h3{
+        font-size: 12px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    nav{
+        display: flow-root;
+        font-size: 14px;
+    }
+    p{
+        font-size: 15px;
+    }
+    input{
+        width: 100px;
+    }
+    footer{
+        width:323px;
+    }
+  
+}
